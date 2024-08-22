@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fundamentos de la web</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- comienzo top -->
+    <header class="container_top">
+
+        <!--comienzo parte de arriba del header-->
+        <div class="header_top">
+            <img src="assets/leaf.png" alt="leaf" class="img_leaf">
+            <h1 ><a href="#" class="title">EasyBay</a></h1>
+
+            <input type="search" placeholder="search for anything" class="search">
+
+            <a href="#" class="title">sing in</a>
+            <img src="assets/cart-dark.png" alt="cart-dark" class="img_cart" onclick="alerta()">
+        </div>
+        <!-- final parte de arriba del header -->
+
+        <!-- comienzo parte de abajo del header -->
+        <div class="header_bot">
+            <ul class="tab_bar">
+                <li><a href="#" class="list">Aeonium</a></li>
+                <li><a href="#" class="list">Andormischus</a></li>
+                <li><a href="#" class="list">Agave</a></li>
+                <li><a href="#" class="list">Aloe</a></li>
+                <li><a href="#" class="list">Anacampseros</a></li>
+                <li><a href="#" class="list">Aristaloe</a></li>
+                <li><a href="#" class="list">more...</a></li>
+            </ul>
+        </div>
+        <!-- final de la parte de abajo del header -->
+    </header>
+    <!-- fin top -->
+
+    <!-- comienzo centro -->
+    <main class="container_center">
+
+        <h2>Your Source for Serious Succulent Specialities</h2>
+        <div class="main_total">
+
+            <!-- parte izquierda del main -->
+            <div class="main_left">
+                <p class="lore">
+                    Discover succulent varieties one pot or rack a time! 
+                    <br>
+                    <br>    
+                    <a href="#" class="main_left_a">Discover <img src="assets/arrow-light.png" alt="arrow-light" class="img_arrow"></a>
+                </p>
+
+                <img src="assets/succulents-1.jpg" alt="succulents-1" class="succulents-1" onmouseover="cambia()" onmouseout="regresa()">
+            </div>
+            <!-- fin parte iz main -->
+
+            <!-- comienzo parte derecha main -->
+            <div class="main_rigth">
+                <div>
+                    <img src="assets/aloe-m.jpg" alt="aloe-m" class="aloe_m">
+                </div>
+
+                <div class="bot_rigth">
+                    <a href="#" class="main_left_a">soothing aloe <img src="assets/arrow-light.png" alt="arrow-light" class="img_arrow"></a>
+                </div>
+
+            </div>
+            <!-- fin parte der main -->
+        </div>
+        
+    </main>
+    <!-- fin main -->
+
+    <!-- comienzo footer -->
+    <footer class="container_bot">
+
+        <div class="footer_total">
+
+            <div class="footer_mini">
+                <img src="assets/aeonium-s.jpg" alt="aeonium-s" class="img_footer">
+                <a href="#" class="footer_text">aeonium</a>
+            </div>
+    
+            <div class="footer_mini">
+                <img src="assets/aloe-s.jpg" alt="aloe-s" class="img_footer">
+                <a href="#" class="footer_text">aloe</a>
+            </div>
+    
+            <div class="footer_mini">
+                <img src="assets/cactus-s.jpg" alt="cactus-s" class="img_footer">
+                <a href="#" class="footer_text">cactus</a>
+            </div>
+    
+            <div class="footer_mini">
+                <img src="assets/echeveria-s.jpg" alt="echeveria-s" class="img_footer">
+                <a href="#" class="footer_text">echeveria</a>
+            </div>
+    
+            <div class="footer_mini">
+                <img src="assets/sedum-s.jpg" alt="sedum-s" class="img_footer">
+                <a href="#" class="footer_text">sedum</a>
+            </div>
+    
+            <div class="footer_mini">
+                <img src="assets/sempervivum-s.jpg" alt="sempervivum-s" class="img_footer">
+                <a href="#" class="footer_text">sempervivum</a>
+            </div>
+    
+        </div>
+        
+    </footer>
+    <!-- fin footer -->
+
+    <!-- cookies -->
+    <div class="container_cookies">
+
+        <img src="assets/alert-dark.png" alt="alert-dark" class="alert-dark">
+        <p class="lore2">this site makes use of third-party cookies, by clicking "i accept" you agree to the terms outlined in our <a href="#">coockie policy</a></p>
+        <div>
+            <button class="button" onclick="desaparece()">i accept</button>
+        </div>
+        
+    </div>
+    <!-- cookies -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
